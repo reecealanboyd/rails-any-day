@@ -59,3 +59,6 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # format files
 gem 'rubocop-rails', require: false
+
+# Use ActiveModel has_secure_password
+gem 'bcrypt'
