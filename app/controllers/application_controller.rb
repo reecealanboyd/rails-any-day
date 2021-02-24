@@ -3,6 +3,7 @@
 class ApplicationController < ActionController::Base
   around_action :switch_locale
   helper_method :current_user
+  helper_method :redirect_unless_logged_in
 
   def default_url_options
     { locale: I18n.locale }
@@ -19,5 +20,9 @@ class ApplicationController < ActionController::Base
     else
       @current_user = nil
     end
+  end
+
+  def redirect_unless_logged_in
+    redirect_to root_path unless current_user != nil
   end
 end
