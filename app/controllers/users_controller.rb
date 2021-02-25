@@ -2,7 +2,7 @@
 
 class UsersController < ApplicationController
   before_action :set_user, only: %i[show edit update destroy]
-  before_action :redirect_to_root_unless_logged_in
+  before_action :redirect_to_root_unless_logged_in, except: %i[new create]
 
   # GET /users or /users.json
   def index
