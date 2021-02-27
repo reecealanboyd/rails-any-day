@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <% if content_for?(:head) %>
+      <%= yield(:head) %>
+    <% end %>
   </head>
-
   <body>
-    <%= yield %>
+    <%= render "shared/header" %>
+    <main class="layouts">
+      <%= yield %>
+    </main>
   </body>
 </html>
