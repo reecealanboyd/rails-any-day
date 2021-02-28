@@ -2,7 +2,7 @@
 
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  scope '(:locale)', locale: /en|mg|ds|it/ do
+  scope '(:locale)', locale: /en|es|fr|it/ do
     root to: 'landing#index'
 
     resources :sessions, only: %i[new create destroy]

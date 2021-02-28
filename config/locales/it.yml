@@ -1,2 +1,7 @@
 it:
-  hello: "Ciao mondo"
+  header: 
+    site-title: "Rails Qualsiasi Giorno"
+  landing:
+    signup: "Iscriviti"
+    or: "o"
+    login: "Accesso"
