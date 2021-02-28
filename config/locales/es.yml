@@ -1,0 +1,7 @@
+es:
+  header: 
+    site-title: "Rails Cualquier Día"
+  landing:
+    signup: "Regístrate"
+    or: "o"
+    login: "Acceder"

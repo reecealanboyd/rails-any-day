@@ -1,0 +1,7 @@
+fr:
+  header: 
+    site-title: "Rails N'importe Quel Jour"
+  landing:
+    signup: "Signer"
+    or: "ou"
+    login: "Connexion"

@@ -18,6 +18,10 @@ module ApplicationHelper
     end
   end
 
+  def current_locale
+    params[:locale] || I18n.default_locale
+  end
+
   def redirect_to_root_unless_logged_in
     redirect_to root_path if current_user.nil?
   end
