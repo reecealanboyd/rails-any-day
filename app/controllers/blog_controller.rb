@@ -1,5 +1,11 @@
 # frozen_string_literal: true
 
 class BlogController < ApplicationController
-  def index; end
+  def index
+      @posts = Post.all
+  end
+
+  def show
+    @post = Post.find_by slug: params[:slug]
+  end
 end
