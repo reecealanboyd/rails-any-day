@@ -36,4 +36,6 @@ en:
     signup: "Sign Up"
     or: "or"
     login: "Log In"
+  blog:
+    page-title: "Blog"
   

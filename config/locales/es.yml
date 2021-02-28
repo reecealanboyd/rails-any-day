@@ -5,3 +5,5 @@ es:
     signup: "Regístrate"
     or: "o"
     login: "Acceder"
+  blog:
+    page-title: "Blog"
