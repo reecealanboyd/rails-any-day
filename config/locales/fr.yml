@@ -5,3 +5,5 @@ fr:
     signup: "Signer"
     or: "ou"
     login: "Connexion"
+  blog:
+    page-title: "Blog"

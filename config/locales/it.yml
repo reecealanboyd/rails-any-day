@@ -5,3 +5,5 @@ it:
     signup: "Iscriviti"
     or: "o"
     login: "Accesso"
+  blog:
+    page-title: "Blog"
