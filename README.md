@@ -2,7 +2,7 @@
 
 Wanting to learn rails. Need some projects to do it. Figured accomplishing whatever small task that piqued my interest would do the trick. 
 
-railsanyday.com
+[railsanyday.com](http://www.railsanyday.com)
 
 Tasks
 
