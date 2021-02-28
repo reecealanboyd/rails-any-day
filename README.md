@@ -21,7 +21,8 @@ Tasks
 - [ ] Oo the action caching is actually something I could use now: https://guides.rubyonrails.org/caching_with_rails.html
 - [ ] Oo action text looks kinda cool — like man medium might literally just be a Rails app with action text lol  — oo and I could let people describe their products with action text!!
 - [ ] Set up a logger? https://guides.rubyonrails.org/debugging_rails_applications.html
-- [ ] Deploy and have it redeploy when I merge - deploy the blog alongside it and buy rails any day.com domain? Gotta learn how to set up DNS top with this. Build admin part of site first then do this 
+- [ ] Deploy 
+- [ ] have it redeploy when I merge 
 - [ ] Oo I’ll let people play with their own feature toggles 
 - [ ] I’ll include code snippet to show 
 - [ ] Set up error logging with something like sentry or rollbar 
