@@ -2,7 +2,7 @@
   <option value="#"><%= current_locale %></option>
   <% ["en", "es", "fr", "it"].each do |locale| %>
     <% if locale != current_locale %>
-      <option value="<%= locale %>"><%= locale %></option>
+      <option value="/<%= locale %>"><%= locale %></option>
     <% end %>
   <% end %>
 </select>
