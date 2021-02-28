@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   scope '(:locale)', locale: /en|es|fr|it/ do
     root to: 'landing#index'
 
-    get '/blog', to: 'blog#index'
+    get 'blog', to: 'blog#index'
+    get 'blog/:slug', to: 'blog#show', as: 'post'
 
     resources :sessions, only: %i[new create destroy]
     get 'signup', to: 'users#new', as: 'signup'
