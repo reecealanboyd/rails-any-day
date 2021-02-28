@@ -1,4 +1,4 @@
-<select id="locale-selector" onchange="window.open(this.value,'_self');">
+<select class="locale-selector" id="locale-selector" onchange="window.open(this.value,'_self');">
   <option value="#"><%= current_locale %></option>
   <% ["en", "es", "fr", "it"].each do |locale| %>
     <% if locale != current_locale %>
