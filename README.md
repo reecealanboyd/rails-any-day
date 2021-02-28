@@ -2,6 +2,8 @@
 
 Wanting to learn rails. Need some projects to do it. Figured accomplishing whatever small task that piqued my interest would do the trick. 
 
+[railsanyday.com](railsanyday.com)
+
 Tasks
 
 - [ ] Admin part of the site
@@ -21,7 +23,6 @@ Tasks
 - [ ] Oo the action caching is actually something I could use now: https://guides.rubyonrails.org/caching_with_rails.html
 - [ ] Oo action text looks kinda cool — like man medium might literally just be a Rails app with action text lol  — oo and I could let people describe their products with action text!!
 - [ ] Set up a logger? https://guides.rubyonrails.org/debugging_rails_applications.html
-- [ ] Deploy 
 - [ ] have it redeploy when I merge 
 - [ ] Oo I’ll let people play with their own feature toggles 
 - [ ] I’ll include code snippet to show 
@@ -40,3 +41,5 @@ Tasks
 - [x] Localization
 - [x] Code formatter
     - [x] Rubocop
+- [x] Deploy with heroku
+- [x] Buy railsanyday.com domain name and link with heroku
